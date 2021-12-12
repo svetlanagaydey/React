@@ -6,6 +6,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Component_2_1 from './Component_2-1.js';
+import BasicsOfJsx from './basics_of_jsx-2_2.jsx'
 
 //Create a react component
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     return (
     <div>
        <Component_2_1></Component_2_1>
+       <BasicsOfJsx></BasicsOfJsx>
     </div>
     )
 }
