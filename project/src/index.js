@@ -11,6 +11,7 @@ import Box1 from './Box1.jsx';
 import Quiz from './Quiz.jsx';
 import ComponentButtons from './4.1-buttons/ComponentButtons.jsx'
 import CardsComponent from './4.2-cards/CardsComponent.jsx'
+import Increment from './7.1-increment/Increment.jsx'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
         <Quiz/>
         <ComponentButtons />
         <CardsComponent />
+        <Increment />
     </div>
     )
 }
