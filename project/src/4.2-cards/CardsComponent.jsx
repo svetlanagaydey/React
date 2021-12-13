@@ -1,8 +1,5 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import Card from './Card.jsx'
-
-
 
 class CardsComponent extends React.Component {
     render () {
@@ -12,7 +9,6 @@ class CardsComponent extends React.Component {
             'Hello dolor, sit amet consectetur adipisicing elit.',
             'Seems ipsum dolor, sit amet consectetur adipisicing elit.'
         ]
-    
         return (
             <div>
                 <Card imageUrl ="https://picsum.photos/370/140" name ={names[0]} article ={articles[0]}/>
@@ -22,6 +18,5 @@ class CardsComponent extends React.Component {
         )
     }
 }
-
 
 export default CardsComponent;

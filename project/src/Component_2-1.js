@@ -8,7 +8,7 @@ const Component_2_1 = () => {
     return (
     <div>
         <h1>AppleSeeds React App </h1>
-        <a href="">
+        <a href="./">
             {getButtonText()}
         </a>
     </div>
