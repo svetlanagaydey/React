@@ -1,13 +1,13 @@
 import React from 'react';
-import Button1 from './Button1';
-import Button2 from './Button2';
+import Button from './Button';
+
 
 
 const ComponentButtons = (props) => {
     return (
         <div>
-            <Button1 value="Important" />
-            <Button2 value="Not important" />
+            <Button value="Important" weigth="bold" backgroundColor='yellow'/>
+            <Button value="Not important" />
         </div>
     )
 }

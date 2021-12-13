@@ -10,6 +10,7 @@ import BasicsOfJsx from './basics_of_jsx-2_2.jsx';
 import Box1 from './Box1.jsx';
 import Quiz from './Quiz.jsx';
 import ComponentButtons from './4.1-buttons/ComponentButtons.jsx'
+import CardsComponent from './4.2-cards/CardsComponent.jsx'
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Box1></Box1>
         <Quiz/>
         <ComponentButtons />
+        <CardsComponent />
     </div>
     )
 }
