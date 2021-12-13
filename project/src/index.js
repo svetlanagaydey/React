@@ -9,7 +9,8 @@ import Component_2_1 from './Component_2-1.js';
 import BasicsOfJsx from './basics_of_jsx-2_2.jsx';
 import Box1 from './Box1.jsx';
 import Quiz from './Quiz.jsx';
-import QuizTitle from './QuizTitle.jsx'
+import ComponentButtons from './4.1-buttons/ComponentButtons.jsx'
+
 
 
 //Create a react component
@@ -22,6 +23,7 @@ const App = () => {
        <BasicsOfJsx/>
         <Box1></Box1>
         <Quiz/>
+        <ComponentButtons />
     </div>
     )
 }
