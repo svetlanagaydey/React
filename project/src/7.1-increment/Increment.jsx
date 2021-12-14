@@ -4,15 +4,20 @@ class Increment extends React.Component {
     constructor() {
         super();
         this.state = {count: 3};
+        
     } 
      Inc = () => {
-        this.setState({count: ++this.state.count+1});
+        this.setState((prevState) => {
+            return {count: this.state.count+1};
+        });
         console.log(this.count)
     }
     Dec = () => {
         this.setState({count: this.state.count-1});
+        //this.setState({count: this.state.count-2});
         console.log(this.count)
     }
+    
 
     render () {
         return (

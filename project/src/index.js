@@ -13,23 +13,24 @@ import ComponentButtons from './4.1-buttons/ComponentButtons.jsx'
 import CardsComponent from './4.2-cards/CardsComponent.jsx'
 import Increment from './7.1-increment/Increment.jsx';
 import Hide from './7.2-hide_seek/Hide.jsx';
-
+import FavoriteColor from './8.1-life-cycle-methods/FavoriteColor.jsx'
 
 
 //Create a react component
 const App = () => {
-  //  const buttonText = "Click me";
+//  const buttonText = "Click me";
   
     return (
     <div>
-       <Component_2_1/>
+       {/* <Component_2_1/>
        <BasicsOfJsx/>
         <Box1></Box1>
         <Quiz/>
         <ComponentButtons />
         <CardsComponent />
-        <Increment />
+        <Increment /> */}
         <Hide />
+        <FavoriteColor />
     </div>
     )
 }
