@@ -15,6 +15,7 @@ import Increment from './7.1-increment/Increment.jsx';
 import Hide from './7.2-hide_seek/Hide.jsx';
 import FavoriteColor from './8.1-life-cycle-methods/FavoriteColor.jsx';
 import Animation from './8.2-box_animation/Animation';
+import ChangingBox from './8.3-changing_box/ChangingBox'
 
 
 //Create a react component
@@ -29,10 +30,11 @@ const App = () => {
         <Quiz/>
         <ComponentButtons />
         <CardsComponent />
-        <Increment /> */}
+        <Increment /> 
         <Hide />
-        <FavoriteColor />
+        <FavoriteColor /> */}
         <Animation />
+        <ChangingBox />
     </div>
     )
 }
