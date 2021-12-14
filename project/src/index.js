@@ -13,7 +13,8 @@ import ComponentButtons from './4.1-buttons/ComponentButtons.jsx'
 import CardsComponent from './4.2-cards/CardsComponent.jsx'
 import Increment from './7.1-increment/Increment.jsx';
 import Hide from './7.2-hide_seek/Hide.jsx';
-import FavoriteColor from './8.1-life-cycle-methods/FavoriteColor.jsx'
+import FavoriteColor from './8.1-life-cycle-methods/FavoriteColor.jsx';
+import Animation from './8.2-box_animation/Animation';
 
 
 //Create a react component
@@ -31,6 +32,7 @@ const App = () => {
         <Increment /> */}
         <Hide />
         <FavoriteColor />
+        <Animation />
     </div>
     )
 }

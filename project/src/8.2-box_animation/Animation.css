@@ -1,0 +1,32 @@
+.animation-box {
+    left: -80px;
+    width: fit-content;
+    position: relative;
+    animation: 4s ease-in-out;
+    /* animation-name: myAnimation; */
+}
+@keyframes myAnimation {
+    0% {left: -80px}
+    20% {left: 0}
+    80% {left: 0}
+    100% {left: -80px}
+  }
+.animation-box div {
+    background-color: plum;
+}
+.animation-box div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.first {
+    width: 40px;
+    height: 40px;
+}
+.second {
+    width: 80px;
+    height: 80px;
+}
+.third {
+    width: 60px;
+    height: 60px;
+}

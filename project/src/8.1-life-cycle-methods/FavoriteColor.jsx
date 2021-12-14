@@ -8,12 +8,12 @@ class FavoriteColor extends React.Component {
         setTimeout( () => {
             this.setState(() => this.state.favoriteColor = 'yellow')
         }, 1000);
-        
     }
 
     componentDidUpdate() {
         console.log('updated with favoriteColor = ' + this.state.favoriteColor);
         document.querySelector('#updated').innerText=`My favorive color is ${this.state.favoriteColor}`;
+        document.querySelector('#updated').style.backgroundColor=this.state.favoriteColor;
     }
     
     render () {
