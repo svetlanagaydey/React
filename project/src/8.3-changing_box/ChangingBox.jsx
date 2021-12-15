@@ -2,9 +2,12 @@ import React from 'react';
 import './ChangingBox.css';
 
 class ChangingBox extends React.Component {
-    state = {colorIndex: -1,
-            changeBorder: ''
-        }
+    constructor() {
+        super()
+        this.state = {colorIndex: -1,
+                changeBorder: ''
+            }
+    }
 
     colors = ['red', 'blue', 'yellow', 'plum', 'orange'];
 

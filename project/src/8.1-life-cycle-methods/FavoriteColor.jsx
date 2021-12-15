@@ -6,7 +6,7 @@ class FavoriteColor extends React.Component {
     componentDidMount() {
         console.log('loaded with favoriteColor = ' + this.state.favoriteColor );
         setTimeout( () => {
-            this.setState(() => this.state.favoriteColor = 'yellow')
+            this.setState({favoriteColor: 'yellow'})
         }, 1000);
     }
 
