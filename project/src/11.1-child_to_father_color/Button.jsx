@@ -14,12 +14,10 @@ class  Button extends React.Component {
                     width: '60px',
                     height: '30px'}}
                 >
-                 {this.props.color}
+                {this.props.color}
             </button>
-           
-          );
-        
-      }
+        );
     }
+}
 
 export default Button;

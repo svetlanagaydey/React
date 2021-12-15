@@ -17,7 +17,8 @@ import FavoriteColor from './8.1-life-cycle-methods/FavoriteColor.jsx';
 import Animation from './8.2-box_animation/Animation';
 import ChangingBox from './8.3-changing_box/ChangingBox';
 import Spinner from './9.1-spinner/Spinner.jsx';
-import ChildToFather from './11.1-child_to_father_color/ChildToFather.jsx'
+import ChildToFather from './11.1-child_to_father_color/ChildToFather.jsx';
+import App1 from './11.2-checkbox/App1';
 
 
 //Create a react component
@@ -39,6 +40,7 @@ const App = () => {
         <ChangingBox />
         <Spinner />
         <ChildToFather />
+        <App1 />
     </div>
     )
 }
