@@ -1,11 +1,8 @@
 import React from 'react';
-
 const Names = (props) => {
-    
-    
     return (
         <div>
-            <h2>Names Component</h2>
+            <h1>Names Component</h1>
             {props.names.map((el, index) => {
             return <div key={index}>{el}</div>
             })}

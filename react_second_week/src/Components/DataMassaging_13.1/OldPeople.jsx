@@ -4,7 +4,7 @@ import './style.css'
 const OldPeople = (props) => {
     return (
         <div>
-            <h1>List Old People</h1>
+            <h1>List Old People Component</h1>
             {props.peoples.map((elem, index) => {
             return (
                 <div key={index} className="card">

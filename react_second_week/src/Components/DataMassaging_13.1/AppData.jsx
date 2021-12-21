@@ -21,7 +21,6 @@ class AppData extends React.Component {
     //     }).map(el => console.log(el))
     // }
     render() {
-        
         return (
             <div>
                 <Names names={this.state.namesArray} />
