@@ -1,4 +1,4 @@
-
+import React from 'react';
 export const DATA = [
     {
     name: "John", birthday: "1-1-1995", favoriteFoods: {
